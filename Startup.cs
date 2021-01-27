@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -28,6 +29,7 @@ namespace Api
             {
                 endpoints.MapControllers();
             });
+            Console.WriteLine("start e endpoints adicionados com sucesso!");
         }
     }
 }
